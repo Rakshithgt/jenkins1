@@ -17,7 +17,6 @@ pipeline {
                 stage('Test1') {
                     steps {
                         echo "This is Test1 stage" 
-                        sh 'sleep 5; exit 1'
                     }
                 }
                 
